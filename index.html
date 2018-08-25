@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Questioning</title>
+    <style>
+        br{margin-top:12px;
+        margin-bottom:12px;}
+    label{font-size: 20px;}
+    p{font-size:15px;}
+    </style>
+</head>
+
+<body>
+     <img src="img/Logo.png" width="1240" height="150" alt="tatto">
+    <hr>
+    <H1>Lets answer some guestions!</H1>
+    <img src="img/T21.jpg" width="800" alt="tatto">
+    <section>
+        <form method="POST" action="https://formspree.io/iryna.levandivka@gmail.com">
+            <fieldset>
+                <b><label for="client-name">Your name:</label></b>
+                <input type="text" name="name" placeholder="Your name" id="name">
+                <br>
+                <b><label>Your email:
+                        <input type="email" name="email"
+                            placeholder="Your email" required>
+                    </label></b>
+                <br>
+                <b><label>Gender</label></b>
+                <label><input type="radio" name="gender" value="male">Male</label>
+                <label><input type="radio" name="gender" value="female">Female</label>
+                <label><input type="radio" name="gender" value="other">Other</label>
+                <br>
+                <b><label>Age</label></b>
+                <select>
+                    <option>Less than 21</option>
+                    <option>21-35</option>
+                    <option>36-55</option>
+                    <option>Older than 55</option>
+                    </select>
+                <br>
+                <b><label>Have tattos?</label></b>
+                <label><input type="radio" name="Yes" value="Yes">Yes</label>
+                <label><input type="radio" name="No" value="No">No</label>
+                <label><input type="radio" name="planning" value="Planning">Planning</label>
+                <br>
+                <b><label>What tattos do you like?</label><br></b>
+                <label><input type="checkbox" name="a" value="Animals">Animal tattos</label><br>
+                <label><input type="checkbox" name="a" value="Flower">Flower tattos</label><br>
+                <label><input type="checkbox" name="a" value="Human">Human-like creatures</label><br>
+                <label><input type="checkbox" name="a" value="Words">Words</label><br>
+                <label><input type="checkbox" name="a" value="Sceneries">Sceneries</label><br>
+                <label><input type="checkbox" name="a" value="Strange signs">Strange signs</label><br>
+                <label><input type="checkbox" name="a" value="Small">Small</label><br>
+                <label><input type="checkbox" name="a" value="Middle">Middle</label><br>
+                <label><input type="checkbox" name="a" value="Big">Big</label><br>
+               
+                <input type="submit">
+                <input type="reset">
+                <br>
+                <b><label>Thank you!</label></b>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>
