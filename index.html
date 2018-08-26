@@ -5,18 +5,30 @@
     <meta charset="UTF-8">
     <title>Questioning</title>
     <style>
+    body{background-color: DarkGray;}
         br{margin-top:12px;
         margin-bottom:12px;}
     label{font-size: 20px;}
-    p{font-size:15px;}
+    p {
+    border-left: 2px solid black; 
+    margin-left: 50px; 
+    padding-left: 40px; 
+    border-right: 2px solid black; 
+    margin-right: 50px; 
+    padding-right: 40px; 
+    font-size: 30px;}
+    section{margin-left: 25px;}
+    H1{margin-left: 25px;}
+    .c{margin-left: 25px;}
+    input{font-size:25px;}
+    
     </style>
 </head>
 
 <body>
-     <img src="img/Logo.png" width="1240" height="150" alt="tatto">
-    <hr>
+    <img src="img/B2.jpg" width="1270" height="150" alt="tatto">
     <H1>Lets answer some guestions!</H1>
-    <img src="img/T21.jpg" width="800" alt="tatto">
+    <img class="c" src="img/p2.png" width="1200" alt="tatto">
     <section>
         <form method="POST" action="https://formspree.io/iryna.levandivka@gmail.com">
             <fieldset>
@@ -53,17 +65,15 @@
                 <label><input type="checkbox" name="a" value="Words">Words</label><br>
                 <label><input type="checkbox" name="a" value="Sceneries">Sceneries</label><br>
                 <label><input type="checkbox" name="a" value="Strange signs">Strange signs</label><br>
-                <label><input type="checkbox" name="a" value="Small">Small</label><br>
-                <label><input type="checkbox" name="a" value="Middle">Middle</label><br>
-                <label><input type="checkbox" name="a" value="Big">Big</label><br>
-               
-                <input type="submit">
-                <input type="reset">
+                <input class="c" type="submit" value="Send">
+                <input class="c" type="reset" value="Reset">
                 <br>
                 <b><label>Thank you!</label></b>
             </fieldset>
         </form>
     </section>
+    <hr>
+    <p>Site created for tatto studio "Tatto world".</p>
 </body>
 
 </html>
